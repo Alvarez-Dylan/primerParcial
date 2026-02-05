@@ -1,4 +1,16 @@
-header{
+ul{
+    margin: 0;
+    padding: 0;
+} 
+
+header .top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+header .main-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,6 +19,15 @@ header{
     align-items: center;
     
 }
+.parrafos-header{ 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.parrafos-header b{
+    color: rgb(13, 143, 225);
+}
+
 #barraDeNavegacion{
     width: 100%;
     }
