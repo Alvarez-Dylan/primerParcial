@@ -1,0 +1,82 @@
+header{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.parrafos-header{
+    align-items: center;
+}
+header button {
+    padding: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.top-bar{
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+input{
+    
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px; 
+    width: auto;
+    border: none;
+    align-content: center;
+   
+}
+.barraDeNavegacion-header{
+    
+    align-items: center;
+    margin-right: 30px;
+    display: flex;
+    border-bottom: 1px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    position: relative;
+}
+
+header .main-header{
+    height: 80px;
+    display: flex;
+    gap: 10px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    
+}
+.parrafos-header{ 
+    display: flex;
+    gap: 20px 20px;
+    margin-left: 20px;
+
+
+}
+
+#barraDeNavegacion{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    }
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
