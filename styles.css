@@ -1,6 +1,24 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(fonts/Rubik/Rubik-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter/Inter_18pt-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+*{
+    font-family: "Rubik", sans-serif;
+}
+p{
+    font-family: "Inter",sans-serif;
+}
+
 ul{
     margin: 0;  
     padding: 10px;
+    list-style: none;
 } 
 h1{
     margin:0;
@@ -9,6 +27,15 @@ h1{
 
  b{
     color: #0ab3ff;
+}
+button {
+    padding: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    
 }
 #primeraSection{
     width: auto;
@@ -53,7 +80,73 @@ h1{
     align-items: self-start;
 }
 
+#segundaSection{
 
+    width: 100%;
+    height: 600px;
+    padding: 40px;
+    justify-content:center;
+    align-items: center;
+    
+}
+.contenedor-main2da{
+    display: flex;
+    justify-content: space-around;
+
+}
+#segundaSection h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-flex-2da{
+    margin-top: 150px;
+    width: 33%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+.contenedor-flex-2da button{
+    font-family: "Rubik",sans-serif;
+    font-size: 30px;
+
+}
+.contenedor-flex-2da p{
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+}
+#botonAzul{
+    font-family: "Rubik";
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #2962ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#terceraSection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 750px;
+    background-color: #142f7e;
+}
 
 /*
 #sec1img{
